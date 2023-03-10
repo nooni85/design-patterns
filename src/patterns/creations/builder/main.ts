@@ -74,12 +74,8 @@ class Director {
     }
 }
 
-function clientCode() {
-    const builder = new HugeHouseBuilder();
-    const director = new Director(builder);
+const builder = new HugeHouseBuilder();
+const director = new Director(builder);
 
-    const house = director.getHugeHouse();
-    house.printParts();
-}
-
-clientCode();
+const house = director.getHugeHouse();
+house.printParts();
