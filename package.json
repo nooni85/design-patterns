@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "abstract-factory": "babel-node -x .ts,.tsx src/patterns/creations/abstract-factory/main.ts",
+    "builder": "babel-node -x .ts,.tsx src/patterns/creations/builder/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
