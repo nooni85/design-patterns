@@ -8,6 +8,7 @@
     "builder": "babel-node -x .ts,.tsx src/patterns/creations/builder/main.ts",
     "adapter": "babel-node -x .ts,.tsx src/patterns/structure/adapter/adapter.ts",
     "bridge": "babel-node -x .ts,.tsx src/patterns/structure/bridge/bridge.ts",
+    "decorator": "babel-node -x .ts,.tsx src/patterns/structure/decorator/decorator.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
